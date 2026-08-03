@@ -83,7 +83,7 @@ export function EntrepreneurialSection() {
             <img
               src="/assets/SKlogo.jpeg"
               alt="Sarika's Kitchen & Co. brand logo"
-              className="max-w-[280px] lg:max-w-[320px] w-full mb-8 shadow-[0_8px_32px_rgba(0,0,0,0.08)]"
+              className="max-w-[280px] lg:max-w-[320px] w-full mb-8 rounded-2xl border border-[#D8D4D0] bg-white p-4 object-contain shadow-[0_8px_32px_rgba(0,0,0,0.08)]"
             />
             <h3 className="text-[32px] font-semibold text-brand-black">
               {t.brandName}

@@ -97,7 +97,7 @@ export function HeroSection() {
 
             <h1 ref={nameRef} className="text-hero-name text-white mb-2 whitespace-nowrap">
               {nameLetters.map((letter, i) => (
-                <span key={i} className="name-letter inline-block">
+                <span key={i} className="name-letter inline-block whitespace-nowrap">
                   {letter === ' ' ? '\u00A0' : letter}
                 </span>
               ))}
@@ -153,7 +153,8 @@ export function HeroSection() {
               ref={imgRef}
               src="/assets/varsha-profile.png"
               alt="Varsha Gupta professional headshot"
-              className="w-full h-full object-cover object-top saturate-[0.85] contrast-[1.05]"
+              className="w-full h-full object-cover object-center saturate-[0.85] contrast-[1.05]"
+              loading="eager"
             />
             {/* Gradient overlay blending left edge */}
             <div className="absolute inset-0 bg-gradient-to-r from-[#0F0F0F] via-[#0F0F0F]/40 to-transparent" />

@@ -86,7 +86,7 @@ export function Navigation() {
           {/* Logo */}
           <button
             onClick={() => scrollTo('#hero')}
-            className="text-nav text-white hover:text-[#FFEB3B] transition-colors tracking-[0.12em] font-bold"
+            className="text-nav whitespace-nowrap text-white hover:text-[#FFEB3B] transition-colors tracking-[0.12em] font-bold"
           >
             {translations.nav.name}
           </button>

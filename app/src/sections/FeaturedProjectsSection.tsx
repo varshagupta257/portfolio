@@ -20,8 +20,8 @@ function MetricBox({ value, label }: { value: string; label: string }) {
 
 function VideoPlayer({ src, caption }: { src: string; caption: string }) {
   return (
-    <div>
-      <div className="aspect-video bg-[#1A1A1A] overflow-hidden">
+    <div className="group">
+      <div className="aspect-video overflow-hidden rounded-2xl border border-white/10 bg-[#111111] shadow-[0_20px_60px_rgba(0,0,0,0.25)] transition-transform duration-500 group-hover:-translate-y-1">
         <video
           src={src}
           autoPlay
@@ -29,7 +29,7 @@ function VideoPlayer({ src, caption }: { src: string; caption: string }) {
           loop
           playsInline
           preload="metadata"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-contain object-center bg-[#111111]"
         />
       </div>
       <p className="text-label text-mid-gray mt-3">{caption}</p>
@@ -173,7 +173,7 @@ export function FeaturedProjectsSection() {
           </div>
 
           <div className="project-a-video">
-            <VideoPlayer src="/assets/zenith-dashboard-video.mp4" caption={projectA.videoCaption} />
+            <VideoPlayer src="/assets/Dashboard%20walkthrough.mp4" caption={projectA.videoCaption} />
           </div>
         </div>
 
@@ -182,7 +182,7 @@ export function FeaturedProjectsSection() {
         {/* Project B: ML Reconciliation */}
         <div className="project-b grid grid-cols-1 lg:grid-cols-[55%_45%] gap-10 lg:gap-12 mt-20">
           <div className="project-b-video order-2 lg:order-1">
-            <VideoPlayer src="/assets/video-reconciliation.mp4" caption={projectB.videoCaption} />
+            <VideoPlayer src="/assets/1782813283970129.mp4" caption={projectB.videoCaption} />
           </div>
 
           <div className="project-b-text order-1 lg:order-2">
