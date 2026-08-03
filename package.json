@@ -1,8 +1,11 @@
 {
   "name": "portfolio-root",
   "private": true,
+  "workspaces": [
+    "app"
+  ],
   "scripts": {
-    "dev": "npm --prefix app run dev",
-    "build": "npm --prefix app run build"
+    "dev": "npm run dev --workspace app",
+    "build": "npm run build --workspace app"
   }
 }
