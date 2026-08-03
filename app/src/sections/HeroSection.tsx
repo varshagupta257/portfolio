@@ -143,12 +143,12 @@ export function HeroSection() {
           </div>
 
           {/* Right: Headshot */}
-          <div className="relative h-[50vh] lg:h-[calc(100dvh-180px)] overflow-hidden order-1 lg:order-2 mb-8 lg:mb-0">
+          <div className="relative h-[50vh] lg:h-[calc(100dvh-180px)] w-full max-w-[480px] mx-auto lg:mx-0 overflow-hidden order-1 lg:order-2 mb-8 lg:mb-0">
             <img
               ref={imgRef}
               src="/assets/varsha-profile.png"
               alt="Varsha Gupta professional headshot"
-              className="w-full h-full object-cover object-center saturate-[0.85] contrast-[1.05]"
+              className="w-full h-full object-cover object-center saturate-[0.85] contrast-[1.05] scale-[0.92]"
               loading="eager"
             />
             {/* Gradient overlay blending left edge */}
