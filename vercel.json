@@ -1,6 +1,7 @@
 {
   "version": 2,
-  "buildCommand": "npm run build",
+  "buildCommand": "npm run build --workspace app",
+  "installCommand": "npm install",
   "outputDirectory": "app/dist",
   "rewrites": [
     {
