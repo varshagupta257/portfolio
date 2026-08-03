@@ -140,7 +140,7 @@ export function AboutSection() {
             </p>
 
             <a
-              href="/Varsha_Gupta_Resume_General.docx"
+              href="/Varsha_Gupta_Resume_General.pdf"
               download
               className="about-paragraph inline-flex items-center gap-2 text-sm font-semibold text-brand-black border-b border-brand-black hover:text-[#FFEB3B] hover:border-[#FFEB3B] transition-colors mt-8 pb-1"
             >

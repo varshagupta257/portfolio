@@ -95,7 +95,7 @@ export function HeroSection() {
               {translations.hero.label}
             </span>
 
-            <h1 ref={nameRef} className="text-hero-name text-white mb-2">
+            <h1 ref={nameRef} className="text-hero-name text-white mb-2 whitespace-nowrap">
               {nameLetters.map((letter, i) => (
                 <span key={i} className="name-letter inline-block">
                   {letter === ' ' ? '\u00A0' : letter}
@@ -119,7 +119,7 @@ export function HeroSection() {
 
             <div ref={ctaRef} className="mt-10 flex flex-wrap items-center gap-4">
               <a
-                href="/Varsha_Gupta_Resume_General.docx"
+                href="/Varsha_Gupta_Resume_General.pdf"
                 download
                 className="btn-yellow"
               >
@@ -151,7 +151,7 @@ export function HeroSection() {
           <div className="relative h-[50vh] lg:h-[calc(100dvh-180px)] overflow-hidden order-1 lg:order-2 mb-8 lg:mb-0">
             <img
               ref={imgRef}
-              src="/assets/varsha-profile.jpeg"
+              src="/assets/varsha-profile.png"
               alt="Varsha Gupta professional headshot"
               className="w-full h-full object-cover object-top saturate-[0.85] contrast-[1.05]"
             />

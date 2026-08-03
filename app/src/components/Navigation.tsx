@@ -111,7 +111,7 @@ export function Navigation() {
           {/* Desktop Right */}
           <div className="hidden md:flex items-center gap-4">
             <a
-              href="/Varsha_Gupta_Resume_General.docx"
+              href="/Varsha_Gupta_Resume_General.pdf"
               download
               className="btn-yellow text-xs py-3 px-5"
             >
@@ -160,7 +160,7 @@ export function Navigation() {
             </button>
           ))}
           <a
-            href="/Varsha_Gupta_Resume_General.docx"
+            href="/Varsha_Gupta_Resume_General.pdf"
             download
             className="btn-yellow mt-4"
             onClick={() => setMenuOpen(false)}

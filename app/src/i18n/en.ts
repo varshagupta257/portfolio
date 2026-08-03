@@ -122,6 +122,13 @@ export const translations = {
         description: "Designed and optimised a RAG pipeline for auditing 5 years of Domino's Pizza 10-K filings across 9 distinct pipeline configurations.",
         skills: "RAG Pipeline Development · Python · FAISS/ChromaDB · LLM Hyperparameter Tuning · Prompt Engineering",
       },
+      {
+        title: "AuditAI",
+        subtitle: "AI Compliance Agent for Corporate Expense Auditing",
+        module: "AI/ML Engineering & Process Automation",
+        description: "Built a locally-run, policy-grounded LLM pipeline that lifted expense violation detection accuracy from ~60% to 96.8%, with zero hallucinations, while keeping humans in the loop for every flagged decision.",
+        skills: "Prompt Engineering · Retrieval-Augmented Generation (RAG) · Local LLM Deployment (Ollama) · Agentic AI (LangGraph) · Tableau Business Intelligence · EU AI Act & Regulatory Compliance",
+      },
     ],
   },
   experience: {

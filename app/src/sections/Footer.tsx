@@ -67,7 +67,7 @@ export function Footer() {
             {/* Right */}
             <div className="flex flex-col items-start lg:items-end gap-6">
               <a
-                href="/Varsha_Gupta_Resume_General.docx"
+                href="/Varsha_Gupta_Resume_General.pdf"
                 download
                 className="btn-yellow"
               >
