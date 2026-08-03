@@ -95,7 +95,7 @@ export function HeroSection() {
               {translations.hero.label}
             </span>
 
-            <h1 ref={nameRef} className="text-hero-name text-white mb-2 whitespace-nowrap max-w-full">
+            <h1 ref={nameRef} className="text-hero-name text-white mb-2 max-w-full">
               {nameLetters.map((letter, i) => (
                 <span key={i} className="name-letter inline-block whitespace-nowrap">
                   {letter === ' ' ? '\u00A0' : letter}
