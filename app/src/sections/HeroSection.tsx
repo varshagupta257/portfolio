@@ -98,7 +98,7 @@ export function HeroSection() {
               <span className="name-letter block mt-1 sm:mt-2">GUPTA</span>
             </h1>
 
-            <div className="relative h-[280px] w-full max-w-[240px] mt-6 overflow-hidden rounded-[24px] lg:hidden">
+            <div className="relative h-[140px] w-full max-w-[120px] mt-6 overflow-hidden rounded-[24px] lg:hidden">
               <img
                 ref={imgRef}
                 src="/assets/varsha-profile.png"
