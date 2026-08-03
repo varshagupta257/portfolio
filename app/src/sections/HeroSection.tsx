@@ -68,8 +68,6 @@ export function HeroSection() {
     return () => ctx.revert();
   }, [reduced]);
 
-  const nameLetters = translations.hero.name.split('');
-
   const scrollToWork = () => {
     const lenis = getLenis();
     if (lenis) lenis.scrollTo('#projects', { offset: -80 });
@@ -96,11 +94,8 @@ export function HeroSection() {
             </span>
 
             <h1 ref={nameRef} className="text-hero-name text-white mb-2 max-w-full">
-              {nameLetters.map((letter, i) => (
-                <span key={i} className="name-letter inline-block whitespace-nowrap">
-                  {letter === ' ' ? '\u00A0' : letter}
-                </span>
-              ))}
+              <span className="name-letter block">VARSHA</span>
+              <span className="name-letter block">GUPTA</span>
             </h1>
 
             <h2
