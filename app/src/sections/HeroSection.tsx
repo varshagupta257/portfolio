@@ -93,9 +93,9 @@ export function HeroSection() {
               {translations.hero.label}
             </span>
 
-            <h1 ref={nameRef} className="text-hero-name text-white mb-2 max-w-full">
+            <h1 ref={nameRef} className="text-hero-name text-white mb-2 max-w-full leading-none">
               <span className="name-letter block">VARSHA</span>
-              <span className="name-letter block">GUPTA</span>
+              <span className="name-letter block mt-1 sm:mt-2">GUPTA</span>
             </h1>
 
             <h2
